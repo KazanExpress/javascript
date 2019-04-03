@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-airbnb",
   "version": "17.1.0",
-  "description": "Airbnb's ESLint config, following our styleguide",
+  "description": "KazanExpress's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
     "prelint": "editorconfig-tools check * rules/* test/*",

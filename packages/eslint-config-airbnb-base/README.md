@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/eslint-config-airbnb-base.svg)](http://badge.fury.io/js/eslint-config-airbnb-base)
 
-This package provides Airbnb's base JS .eslintrc (without React plugins) as an extensible shared config.
+This package provides KazanExpress's base JS .eslintrc (without React plugins) as an extensible shared config.
 
 ## Usage
 
@@ -84,7 +84,7 @@ Lints ES5 and below. Requires `eslint` and `eslint-plugin-import`.
 
 2. Add `"extends": "airbnb-base/legacy"` to your .eslintrc
 
-See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb), [Airbnb's Javascript styleguide](https://github.com/airbnb/javascript), and the [ESlint config docs](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) for more information.
+See [KazanExpress's overarching ESLint config](https://npmjs.com/eslint-config-airbnb), [KazanExpress's Javascript styleguide](https://github.com/airbnb/javascript), and the [ESlint config docs](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) for more information.
 
 ### eslint-config-airbnb-base/whitespace
 

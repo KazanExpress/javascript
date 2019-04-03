@@ -1,4 +1,4 @@
-# Airbnb JavaScript Style Guide() {
+# KazanExpress JavaScript Style Guide() {
 
 *A mostly reasonable approach to JavaScript*
 
@@ -1260,15 +1260,15 @@ Other Style Guides
 
     ```javascript
     // bad
-    const AirbnbStyleGuide = require('./AirbnbStyleGuide');
-    module.exports = AirbnbStyleGuide.es6;
+    const KazanExpressStyleGuide = require('./KazanExpressStyleGuide');
+    module.exports = KazanExpressStyleGuide.es6;
 
     // ok
-    import AirbnbStyleGuide from './AirbnbStyleGuide';
-    export default AirbnbStyleGuide.es6;
+    import KazanExpressStyleGuide from './KazanExpressStyleGuide';
+    export default KazanExpressStyleGuide.es6;
 
     // best
-    import { es6 } from './AirbnbStyleGuide';
+    import { es6 } from './KazanExpressStyleGuide';
     export default es6;
     ```
 
@@ -1279,10 +1279,10 @@ Other Style Guides
 
     ```javascript
     // bad
-    import * as AirbnbStyleGuide from './AirbnbStyleGuide';
+    import * as KazanExpressStyleGuide from './KazanExpressStyleGuide';
 
     // good
-    import AirbnbStyleGuide from './AirbnbStyleGuide';
+    import KazanExpressStyleGuide from './KazanExpressStyleGuide';
     ```
 
   <a name="modules--no-export-from-import"></a><a name="10.3"></a>
@@ -1293,11 +1293,11 @@ Other Style Guides
     ```javascript
     // bad
     // filename es6.js
-    export { es6 as default } from './AirbnbStyleGuide';
+    export { es6 as default } from './KazanExpressStyleGuide';
 
     // good
     // filename es6.js
-    import { es6 } from './AirbnbStyleGuide';
+    import { es6 } from './KazanExpressStyleGuide';
     export default es6;
     ```
 
@@ -2493,14 +2493,14 @@ Other Style Guides
 
     ```javascript
     // bad
-    import { es6 } from './AirbnbStyleGuide';
+    import { es6 } from './KazanExpressStyleGuide';
       // ...
     export default es6;
     ```
 
     ```javascript
     // bad
-    import { es6 } from './AirbnbStyleGuide';
+    import { es6 } from './KazanExpressStyleGuide';
       // ...
     export default es6;↵
     ↵
@@ -2508,7 +2508,7 @@ Other Style Guides
 
     ```javascript
     // good
-    import { es6 } from './AirbnbStyleGuide';
+    import { es6 } from './KazanExpressStyleGuide';
       // ...
     export default es6;↵
     ```
@@ -3312,12 +3312,12 @@ Other Style Guides
   - [23.8](#naming--PascalCase-singleton) Use PascalCase when you export a constructor / class / singleton / function library / bare object.
 
     ```javascript
-    const AirbnbStyleGuide = {
+    const KazanExpressStyleGuide = {
       es6: {
       },
     };
 
-    export default AirbnbStyleGuide;
+    export default KazanExpressStyleGuide;
     ```
 
   <a name="naming--Acronyms-and-Initialisms"></a>
@@ -3656,7 +3656,7 @@ Other Style Guides
     - Whichever testing framework you use, you should be writing tests!
     - Strive to write many small pure functions, and minimize where mutations occur.
     - Be cautious about stubs and mocks - they can make your tests more brittle.
-    - We primarily use [`mocha`](https://www.npmjs.com/package/mocha) and [`jest`](https://www.npmjs.com/package/jest) at Airbnb. [`tape`](https://www.npmjs.com/package/tape) is also used occasionally for small, separate modules.
+    - We primarily use [`mocha`](https://www.npmjs.com/package/mocha) and [`jest`](https://www.npmjs.com/package/jest) at KazanExpress. [`tape`](https://www.npmjs.com/package/tape) is also used occasionally for small, separate modules.
     - 100% test coverage is a good goal to strive for, even if it’s not always practical to reach it.
     - Whenever you fix a bug, _write a regression test_. A bug fixed without a regression test is almost certainly going to break again in the future.
 
@@ -3692,8 +3692,8 @@ Other Style Guides
 **Tools**
 
   - Code Style Linters
-    - [ESlint](https://eslint.org/) - [Airbnb Style .eslintrc](https://github.com/airbnb/javascript/blob/master/linters/.eslintrc)
-    - [JSHint](http://jshint.com/) - [Airbnb Style .jshintrc](https://github.com/airbnb/javascript/blob/master/linters/.jshintrc)
+    - [ESlint](https://eslint.org/) - [KazanExpress Style .eslintrc](https://github.com/airbnb/javascript/blob/master/linters/.eslintrc)
+    - [JSHint](http://jshint.com/) - [KazanExpress Style .jshintrc](https://github.com/airbnb/javascript/blob/master/linters/.jshintrc)
   - Neutrino Preset - [@neutrinojs/airbnb](https://neutrinojs.org/packages/airbnb/)
 
 **Other Style Guides**
@@ -3765,7 +3765,7 @@ Other Style Guides
   - **4Catalyzer**: [4Catalyzer/javascript](https://github.com/4Catalyzer/javascript)
   - **Aan Zee**: [AanZee/javascript](https://github.com/AanZee/javascript)
   - **Adult Swim**: [adult-swim/javascript](https://github.com/adult-swim/javascript)
-  - **Airbnb**: [airbnb/javascript](https://github.com/airbnb/javascript)
+  - **KazanExpress**: [airbnb/javascript](https://github.com/airbnb/javascript)
   - **AltSchool**: [AltSchool/javascript](https://github.com/AltSchool/javascript)
   - **Apartmint**: [apartmint/javascript](https://github.com/apartmint/javascript)
   - **Ascribe**: [ascribe/javascript](https://github.com/ascribe/javascript)
@@ -3898,7 +3898,7 @@ Other Style Guides
 
 (The MIT License)
 
-Copyright (c) 2012 Airbnb
+Copyright (c) 2012 KazanExpress
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

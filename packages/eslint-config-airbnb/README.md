@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/eslint-config-airbnb.svg)](http://badge.fury.io/js/eslint-config-airbnb)
 
-This package provides Airbnb's .eslintrc as an extensible shared config.
+This package provides KazanExpress's .eslintrc as an extensible shared config.
 
 ## Usage
 
@@ -68,7 +68,7 @@ This entry point is deprecated. See [eslint-config-airbnb-base](https://npmjs.co
 
 This entry point is deprecated. See [eslint-config-airbnb-base](https://npmjs.com/eslint-config-airbnb-base).
 
-See [Airbnb's Javascript styleguide](https://github.com/airbnb/javascript) and
+See [KazanExpress's Javascript styleguide](https://github.com/airbnb/javascript) and
 the [ESlint config docs](https://eslint.org/docs/user-guide/configuring#extending-configuration-files)
 for more information.
 
